@@ -1,4 +1,8 @@
 package com.backend.rootbackend.domain.service;
 
-public class UserServiceImpl {
+import org.springframework.stereotype.Service;
+
+@Service
+public class UserServiceImpl implements UserService{
+
 }
